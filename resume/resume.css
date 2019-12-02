@@ -1,0 +1,223 @@
+/* 스포카 한 산스 */
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; } */
+
+
+/* 네이버 나눔 바른 고딕 */
+/* @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+   src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); }
+* { font-family: 'NanumBarunGothic', sans-serif; } */
+
+/* 네이버 나눔 스퀘어 */
+ * { font-family: 'NanumSquare', sans-serif !important; }
+
+body {
+  margin: 0;
+  font-size: 10px;
+}
+
+h1,h2,h3,p,div,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p, ul {
+  /* font-size: 1.2rem; */
+  /* font-size: 1.1rem; */
+  font-size: 1.1rem;
+}
+
+a { color: lightgray;}
+a:link { color:lightgray; text-decoration: none;}
+a:visited { color:lightgray; text-decoration: none;}
+a:hover { color:lightgray; text-decoration: none;}
+small { color:lightgray; }
+/* a { color: grey;}
+a:link { color:grey; text-decoration: none;}
+a:visited { color:grey; text-decoration: none;}
+a:hover { color:grey; text-decoration: none;} */
+/* a { color: gray;}
+a:link { color:gray; text-decoration: none;}
+a:visited { color:gray; text-decoration: none;}
+a:hover { color:gray; text-decoration: none;} */
+/* a:link { color:#808080; text-decoration: none;}
+a:visited { color:#808080; text-decoration: none;}
+a:hover { color:#808080; text-decoration: none;} */
+
+/* ==================== css 시작 ================================================================================================== */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* 맨 위 정보 섹션 */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.name {
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  /* font-size: 4rem !important; */
+  /* margin-bottom: 72px; */
+  margin-bottom: 66px;
+}
+.portfolio {
+  font-size: 1.3rem;
+  /* font-size: 1.5rem; */
+}
+.contact :not(:first-child) {
+  margin-right: 20px;
+  line-height: 2.5rem;
+}
+.contact :first-child {
+  margin-bottom: 9px;
+}
+
+/* 간단 소개 섹션 */
+.self-introduce {
+  margin-top: 60px;
+}
+.intro  {
+  margin-bottom: 40px;
+}
+.intro + p {
+  line-height: 2.5rem;
+  /* line-height: 3rem; */
+}
+
+/* 강점, 스킬, 경력 섹션 */
+.i-have {
+  position: relative;
+}
+.i-have, .skills, .career  {
+  margin-top: 60px;
+}
+.i-have h1 {
+  font-size: 1.5rem;
+}
+.strength h1 {
+  margin-bottom: 20px;
+}
+.strength-detail li {
+  line-height: 3rem;
+  /* line-height: 3.5rem; */
+}
+.strength-detail small {
+  display: inline-block;
+  margin-left: 68px;
+  margin-bottom: 14px;
+}
+/* .strength-detail :not(:nth-child(2)) {
+  color: red;
+  line-height: 3.5rem;
+} */
+.strength-detail strong {
+  margin-right: 20px;
+}
+.skills {
+  width: 100px;
+  position: absolute;
+  top: -76px;
+  right: 15px;
+  line-height: 3rem;
+  /* line-height: 3.5rem; */
+}
+.skills ul {
+  font-size: 1.5rem;
+}
+/* .skills :not(:first-child) {
+  line-height: 3.5rem;
+} */
+.career h2 {
+  font-size: 1.2rem;
+}
+.career div {
+  margin-top: 30px;
+  line-height: 2.5rem;
+}
+
+/* 교육 */
+.education {
+  margin-top: 40px;
+  line-height: 3rem;
+}
+.education h1 {
+  margin-bottom: 30px;
+}
+.education h2 {
+  font-size: 1.2rem;
+}
+
+
+/* 프로젝트 */
+.project {
+  margin-top: 40px;
+}
+.project-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.outline p {
+  line-height: 2rem;
+  /* line-height: 2.5rem; */
+}
+.description {
+  width: 702px;
+}
+.relate {
+  margin-top: 30px;
+  margin-left: 320px;
+  font-size: 1.2rem;
+}
+.relate div {
+  margin-top: 40px;
+}
+.project2 .relate p, .project3 .relate p {
+  line-height: 2.5rem;
+}
+.related-link {
+  font-size: 1.2rem;
+  margin-left: 300px;
+  margin-top: 30px; 
+  line-height: 2rem;
+}
+.related-link > div:first-child {
+  margin-bottom: 30px;
+}
+.project-img {
+  margin-left: 300px;
+  margin-top: 30px;
+  width: 639px;
+  height: 316px;
+  box-shadow: 5px 5px 6px 3px lightgrey;
+}
+.term {
+  color:lightgray;
+}
+
+/* 섹션 공통 클래스 */
+.section-border {
+  padding-bottom: 30px;
+  /* padding-bottom: 40px; */
+  border-bottom: 1px solid lightgray;
+  /* border-bottom: 1px solid #808080; */
+}
+.section-border h1 {
+  font-size: 1.5rem;
+}
