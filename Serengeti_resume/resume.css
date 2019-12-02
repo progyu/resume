@@ -1,0 +1,126 @@
+/* reset CSS */
+h1,h2,h3,h4,h5,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* animation */
+@keyframes rolling{
+    0%{
+        margin-top: -50px;
+    }
+    50%{
+        margin-top: -25px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+body{
+    margin: 3% auto;
+    width: 609px;
+    height: auto;
+    padding: 3%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(90, 126, 145, 0.5);
+}
+
+header{
+    text-align: right;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.sectionItem{
+    width: 45%;
+}
+
+.userName{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+.userJob{
+    height: 25px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #7c7c7c;
+    font-weight: 800;
+}
+
+.userJobList{
+    list-style-type: none;
+    line-height: 25px;
+    margin-top: -0px;
+    animation-name: rolling;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.sectionDiv{
+    margin-bottom: 3%;
+}
+
+.sectionTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.sectionContent{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%;
+    color: #282828;
+}
+
+.expCareer, .Interestings, .contact{
+    padding: 7.5px 0px;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.expItemContainer{
+    padding: 7.5px 0px;
+}
+
+.expTitle, .expTerm{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.expItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expContent{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    padding:5px 0px;
+}
+
+.secPictureContainer{
+    width: 100%;
+    border-bottom: 10px solid #282828;
+    margin-bottom: 20px;
+}
+.secPicture{
+    padding: 24px 0px;
+    width: 204px;
+    border-radius: 50%;
+}
+
+.interestList{
+    padding-left: 25px;
+}
